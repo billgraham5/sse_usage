@@ -8,7 +8,7 @@ The tool is intended to give administrators a practical way to estimate adoption
 
 ### Secure Internet Access (`SIA`)
 
-SIA usage is measured by the number of registered `Roaming Computers` in the organization.
+This application measures SIA usage by the number of registered `Roaming Computers` in the organization.
 
 This relates to the `Umbrella Roaming Module`, which is part of `Cisco Secure Client`.
 
@@ -17,11 +17,11 @@ Important notes:
 - SIA subscriptions are also required for clients that access the internet through `PAC` configuration.
 - SIA subscriptions are also required for clients that access the internet through a branch office tunnel into the `SSE` platform.
 - Those clients are **not** counted by this application.
-- It is generally considered a best practice to deploy the `Roaming Module` for DNS-layer protection, even when most SIA traffic is acquired through another method.
+- It is generally considered a best practice to deploy the `Roaming Module` for DNS-layer protection, even when SIA traffic is acquired through another method.
 
 ### Secure Private Access (`SPA`)
 
-SPA usage is measured by users who access either:
+This application measures SPA usage by users who access either:
 
 - `Remote Access VPN`
 - `Zero Trust Network Access (ZTNA)`
@@ -44,7 +44,7 @@ Current behavior:
 
 - `Cisco Umbrella`
   - Supports `SWG / SIA` counting in this tool
-  - `VPN` and `ZTNA` are currently not counted in the Umbrella path
+  - `VPN` and `ZTNA` are currently not counted in the Umbrella path (Remote Access VPN requires the Meraki API)
 - `Cisco Secure Access`
   - Supports `SWG`
   - Supports `Remote Access VPN`
@@ -131,7 +131,7 @@ Available options:
 
 The CLI provides progress updates while it runs. During long SWG correlation passes, it emits a heartbeat every 60 seconds so the user can see that the process is still active.
 
-If Cisco returns rate-limiting feedback such as `HTTP 429`, the application reports the backoff timer to the user and retries automatically.
+If the Cisco API server returns rate-limiting feedback such as `HTTP 429`, the application reports the backoff timer to the user and retries automatically.
 
 The client also refreshes expired OAuth access tokens automatically during long runs for both `Cisco Umbrella` and `Cisco Secure Access`.
 
