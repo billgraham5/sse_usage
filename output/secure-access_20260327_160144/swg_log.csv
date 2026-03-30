@@ -1,0 +1,3 @@
+user_name,computer_name,service_type,source_product,device_id,first_seen,last_seen,event_count,notes
+Mo Khan (Mohammed.Khan@bbrown.com),897-5CGVGX3,SWG,Cisco Secure Access,0101ec2d62ffc042,2026-03-27T18:41:20+00:00,2026-03-27T20:01:22+00:00,1,swgStatus=Protected
+Mic Parkin (Micael.Parkin@bbrown.com),897-F92DFY3,SWG,Cisco Secure Access,0101ec87e08eff61,2026-03-27T19:27:19+00:00,2026-03-27T19:48:53+00:00,1,swgStatus=Protected

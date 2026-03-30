@@ -1,0 +1,2 @@
+user_name,computer_name,service_type,source_product,device_id,first_seen,last_seen,event_count,notes
+Bill Graham (billgra+duo@cisco.com),,ZTNA,Cisco Secure Access,0ace2c2ec9b17a4f,2026-03-27T19:29:07Z,2026-05-01T19:29:07Z,1,active ZTNA device certificate

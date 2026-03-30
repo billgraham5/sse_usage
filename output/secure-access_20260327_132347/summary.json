@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-03-27T17:24:01.933693+00:00",
+  "product": "secure-access",
+  "services": {
+    "SWG": {
+      "supported": true,
+      "primary_count": 2,
+      "unique_users": 0,
+      "notes": [
+        "Primary SWG count is the number of registered roaming computers, per the requirement.",
+        "User correlation uses proxy activity from the last 30 days or less; 2 device(s) could not be mapped to a user."
+      ]
+    },
+    "VPN": {
+      "supported": true,
+      "primary_count": 4,
+      "unique_users": 4,
+      "notes": [
+        "VPN count is based on unique users with connected events in the requested lookback window."
+      ]
+    },
+    "ZTNA": {
+      "supported": true,
+      "primary_count": 0,
+      "unique_users": 0,
+      "notes": [
+        "ZTNA count is the number of active device registrations returned by the Zero Trust User Devices API.",
+        "Skipped 5 user ID(s) that Cisco returned as not found when querying ZTNA summaries."
+      ]
+    }
+  }
+}

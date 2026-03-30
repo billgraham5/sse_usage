@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-03-27T19:45:03.591667+00:00",
+  "product": "secure-access",
+  "services": {
+    "SWG": {
+      "supported": true,
+      "primary_count": 3,
+      "unique_users": 0,
+      "notes": [
+        "Primary SWG count is the number of registered roaming computers, per the requirement.",
+        "User correlation uses proxy activity from the last 30 days or less; 3 device(s) could not be mapped to a user."
+      ]
+    },
+    "VPN": {
+      "supported": true,
+      "primary_count": 4,
+      "unique_users": 4,
+      "notes": [
+        "VPN count is based on unique users with connected events in the requested lookback window."
+      ]
+    },
+    "ZTNA": {
+      "supported": true,
+      "primary_count": 1,
+      "unique_users": 1,
+      "notes": [
+        "ZTNA count is the number of active device registrations returned by the Zero Trust User Devices API."
+      ]
+    }
+  }
+}

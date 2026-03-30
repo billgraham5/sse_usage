@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-03-30T19:49:33.147857+00:00",
+  "product": "umbrella",
+  "services": {
+    "SWG": {
+      "supported": true,
+      "primary_count": 5521,
+      "unique_users": 4848,
+      "notes": [
+        "Primary SWG count is the number of registered roaming computers, per the requirement.",
+        "SWG username correlation used top-identities plus up to 1 targeted proxy activity lookup per uncached device.",
+        "4776 device(s) reused a prior local SWG correlation cache entry.",
+        "5 device(s) were not found in top-identities for the lookback window.",
+        "0 device(s) encountered an API error during targeted proxy correlation and were left uncached.",
+        "427 device(s) were found but did not reveal a user identity within the targeted lookup limit."
+      ]
+    },
+    "VPN": {
+      "supported": false,
+      "primary_count": 0,
+      "unique_users": 0,
+      "notes": [
+        "Cisco Umbrella's current Cloud Security API documentation does not expose Secure Access VPN reporting endpoints."
+      ]
+    },
+    "ZTNA": {
+      "supported": false,
+      "primary_count": 0,
+      "unique_users": 0,
+      "notes": [
+        "Cisco Umbrella's current Cloud Security API documentation does not expose Zero Trust User Devices endpoints."
+      ]
+    }
+  }
+}

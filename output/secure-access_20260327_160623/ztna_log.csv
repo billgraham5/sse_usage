@@ -1,0 +1,8 @@
+user_name,computer_name,service_type,source_product,device_id,first_seen,last_seen,event_count,notes
+Bogdan Balaci (bogdan.balaci@bbrown.com),,ZTNA,Cisco Secure Access,0ace340b6c2543a6,2026-03-09T08:38:08Z,2026-04-13T08:38:07Z,1,active ZTNA device certificate
+Elly Wharton (Elly.Wharton@bbrown.com),,ZTNA,Cisco Secure Access,0ace36ffe21f7029,2026-03-26T15:36:49Z,2026-04-30T15:36:49Z,1,active ZTNA device certificate
+Kenny Mathias (Kenny.Mathias@bbrown.com),,ZTNA,Cisco Secure Access,0ace46bf447cfbb5,2026-03-09T11:51:23Z,2026-04-13T11:51:22Z,1,active ZTNA device certificate
+Mic Parkin (Micael.Parkin@bbrown.com),,ZTNA,Cisco Secure Access,0aceff1857c76dc6,2026-03-20T16:27:28Z,2026-04-24T16:27:28Z,1,active ZTNA device certificate
+Michael Treleven (michael.treleven@bbrown.com),,ZTNA,Cisco Secure Access,0ace1e13410a1da8,2026-03-09T08:48:35Z,2026-04-13T08:48:34Z,1,active ZTNA device certificate
+Mo Khan (Mohammed.Khan@bbrown.com),,ZTNA,Cisco Secure Access,0ace764520dcc6bf,2026-03-26T14:13:25Z,2026-04-30T14:13:25Z,1,active ZTNA device certificate
+Nik Kremenskovs (nkremenskovs@decusbrokers.com),,ZTNA,Cisco Secure Access,0ace93bcac3bf4ff,2026-03-05T11:32:58Z,2026-04-09T11:32:57Z,1,active ZTNA device certificate

@@ -1,0 +1,5 @@
+user_name,computer_name,service_type,source_product,device_id,first_seen,last_seen,event_count,notes
+Bill Graham (billgra+duo@cisco.com),,VPN,Cisco Secure Access,,2026-02-11T17:16:17+00:00,2026-03-27T19:40:52+00:00,185,osVersions=Mac OS X 15.7.3; Mac OS X 26.3.0; Mac OS X 26.3.1
+Grant Test (gbellchamber@bbrown.com),,VPN,Cisco Secure Access,,2026-03-26T16:57:01+00:00,2026-03-26T16:58:40+00:00,4,osVersions=Windows 10.0.26200
+Mauro Samarelli (msamarelli@bbins.com),,VPN,Cisco Secure Access,,2026-02-11T17:20:03+00:00,2026-03-26T14:22:51+00:00,28,osVersions=Windows 10.0.26100; Windows 10.0.26200
+Stephen David (stdavid2+sr700585076@cisco.com),,VPN,Cisco Secure Access,,2026-03-23T19:22:20+00:00,2026-03-27T01:23:24+00:00,27,osVersions=Mac OS X 26.3.1
