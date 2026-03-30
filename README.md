@@ -1,6 +1,6 @@
-# Cisco SSE Usage Counter
+# Cisco SSE Usage Reporter
 
-`Cisco SSE Usage Counter` is a Python 3 command-line application that helps identify usage of Cisco Umbrella and Cisco Secure Access as it relates to Secure Internet Access (`SIA`) and Secure Private Access (`SPA`) subscription utilization.
+`Cisco SSE Usage Reporter` is a Python 3 command-line application that helps identify usage of Cisco Umbrella and Cisco Secure Access as it relates to Secure Internet Access (`SIA`) and Secure Private Access (`SPA`) subscription utilization.
 
 The tool is intended to give administrators a practical way to estimate adoption by service, generate supporting logs, and optionally correlate roaming computer identities with SAML user identities.
 
