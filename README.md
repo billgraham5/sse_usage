@@ -45,7 +45,7 @@ Current behavior:
 
 - `Cisco Umbrella`
   - Supports `SWG / SIA` counting in this tool
-  - `VPN` and `ZTNA` are currently not counted in the Umbrella path (Remote Access VPN requires the Meraki API)
+  - `VPN` and `ZTNA` are currently not counted in the Umbrella path (Remote Access VPN requires the Meraki API and this working is pending)
 - `Cisco Secure Access`
   - Supports `SWG`
   - Supports `Remote Access VPN`
