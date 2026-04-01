@@ -1,3 +1,0 @@
-user_name,computer_name,service_type,source_product,device_id,first_seen,last_seen,event_count,notes
-,2305-GKHD6F3,SWG,Cisco Secure Access,01013a48f04d057c,,,0,swgStatus=Off; no matching user found in proxy activity
-,2305-GKHD6F3,SWG,Cisco Secure Access,0101d4c87c6eb175,,,0,swgStatus=Off; no matching user found in proxy activity
