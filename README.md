@@ -14,11 +14,11 @@ This relates to the `Umbrella Roaming Module`, which is part of `Cisco Secure Cl
 
 Important notes:
 
-- SIA subscriptions are also required for clients that access the internet through `PAC` configuration.
+- SIA subscriptions are also required for clients that access the internet through `PAC` configuration (not counted here(
 - SIA subscriptions are also required for clients that access the internet through a branch office tunnel into the `SSE` platform.
 - Those clients are **not** counted by this application.
 - The script assumes inactive Roaming Computers are configured to be auto-deleted after 60 days.  Otherwise, they are counted.
-- It is generally considered a best practice to deploy the `Roaming Module` for DNS-layer protection, even when SIA traffic is acquired through another method.
+- It is generally considered a best practice to deploy the `Roaming Module` for DNS-layer protection, even when SIA traffic is acquired through another method.  This is an effective way to count SIA users.
 
 ### Secure Private Access (`SPA`)
 
